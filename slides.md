@@ -43,7 +43,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # What is Slidev?
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+Slidev is a slides maker and presenter designed for developers, consists of the following features
 
 - 📝 **Text-based** - focus on the content with Markdown, and then style them later
 - 🎨 **Themable** - theme can be shared and used with npm packages
