@@ -80,9 +80,16 @@ Here is another comment.
 -->
 
 ---
+layout: iframe
+url: https://climatearchive.org/
+scale: 0.6
+---
+
+
+---
 layout: iframe-right
 url: https://clima.github.io/ClimaLSM.jl/previews/PR214/dynamicdocs/pages/vegetation/farquhar_model/
-scale: 0.4 
+scale: 0.6 
 ---
 
 # Why create web apps?
@@ -129,7 +136,7 @@ route!(server,"/Rh"=>Rh_app)
 ---
 layout: iframe-right
 url: https://simondanisch.github.io/JSServe.jl/stable/
-scale: 0.4
+scale: 0.6
 ---
 
 # Visualize CliMA output, Simon Danish example
@@ -137,7 +144,7 @@ scale: 0.4
 ---
 layout: iframe-right
 url: https://simondanisch.github.io/JSServe.jl/stable/widgets.html
-scale: 0.4
+scale: 0.6
 ---
 
 # Dashboard widgets for interaction:
@@ -152,7 +159,7 @@ scale: 0.4
 ---
 layout: iframe-right
 url: https://cupoftea.earth/menu2/
-scale: 0.4 
+scale: 0.6 
 ---
 
 # Potential to use database: example 1
@@ -187,7 +194,8 @@ image: ./images/Topt2.png
 
 - Microsoft Azure virtual machine (Ubuntu)
 - NGINX to make it a dynamic web server 
-- Let's Encrypt for https certificate 
+- Let's Encrypt for https certificate
+- Julia deps: JSServe, WGLMakie, ClimaLSM, (ParamViz)  
 - Alternative, probably cheaper: use a personal computer. Need stable IP (fee to internet provider) & computer on 100% of time (electricity)
 - Solution above may allow for more data storage (add drive...), not sure of Azure costs
 
