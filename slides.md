@@ -97,6 +97,7 @@ scale: 0.6
 - Accessible
 - Communication: student, funders, scientists
 - Gain time (no install, precompile etc.)
+- Attract more users unfamiliar with coding or Julia
 
 ---
 layout: two-cols
@@ -140,6 +141,8 @@ scale: 0.6
 ---
 
 # Visualize CliMA output, Simon Danish example
+
+- note: adding animation (e.g., arrows for wind) would be easy
 
 ---
 layout: iframe-right
