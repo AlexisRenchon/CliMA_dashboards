@@ -97,7 +97,8 @@ scale: 0.6
 - Accessible
 - Communication: student, funders, scientists
 - Gain time (no install, precompile etc.)
-- Attract more users unfamiliar with coding or Julia
+- Attract communities (e.g., ecologists) unfamiliar with coding or Julia
+- Attract attention (e.g., climatearchive retweeted 1000s of times, permanent museum exhibit...)
 
 ---
 layout: two-cols
@@ -107,7 +108,7 @@ layout: two-cols
 
 - ParamViz.jl package: short script for each app
 - Script to generate all apps (ClimaLSM.jl/docs) -->
-- .yml file to generate apps on PR merged on main: no need to manually connect to server
+- .yml file to run that script when PR merged on main: no need to manually connect to server
 
 ::right::
 
@@ -143,6 +144,7 @@ scale: 0.6
 # Visualize CliMA output, Simon Danish example
 
 - note: adding animation (e.g., arrows for wind) would be easy
+- can also be automated, adjusted when new output created
 
 ---
 layout: iframe-right
@@ -152,10 +154,10 @@ scale: 0.6
 
 # Dashboard widgets for interaction:
 
-- button
-- text input
-- menu
-- slider
+- button (e.g., "run")
+- text input (e.g., parameters)
+- menu (e.g., submodels)
+- slider 
 - upload/download (e.g., inputs or outputs files)
 - check box
 
@@ -169,6 +171,8 @@ scale: 0.6
 
 - DAMM parameters fit of FLUXNET & COSORE sites
 - Farquhar, Medlyn, radiative transfer, etc.
+- note: CUP of TEA is previous work I presented to Gary Geernaert, DOE BER EESSD director, it went great!
+- note2: this was very preliminary and wasn't using a server... could do much better now.  
 
 ---
 layout: image-right
