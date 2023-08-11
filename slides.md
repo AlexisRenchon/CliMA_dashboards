@@ -94,11 +94,12 @@ scale: 0.6
 
 # Why create web apps?
 
-- Accessible
+- Accessibility
 - Communication: student, funders, scientists
 - Gain time (no install, precompile etc.)
 - Attract communities (e.g., ecologists) unfamiliar with coding or Julia
 - Attract attention (e.g., climatearchive retweeted 1000s of times, permanent museum exhibit...)
+- ... and much more! e.g., ParamViz useful to debug and visualize parameter sensitivity
 
 ---
 layout: two-cols
@@ -144,7 +145,7 @@ scale: 0.6
 # Visualize CliMA output, Simon Danish example
 
 - note: adding animation (e.g., arrows for wind) would be easy
-- can also be automated, adjusted when new output created
+- can also be automated, (e.g., adjusted when new output created)
 
 ---
 layout: iframe-right
@@ -181,9 +182,9 @@ image: ./images/Topt2.png
 
 # Potential to use database: example 2
 
-- Emergent properties model vs. data: up-to-date rather than one-off publication
-- So many examples of this, always the same: empirical pattern observed, "model should consider it"
-- We could have a library of such emergent pattern obs. vs. model that stays up to date (as model and data evolve)
+- Emergent pattern in observations: do models capture it?
+- So many papers like this, always the same: empirical pattern observed, "model should consider it"
+- The community should build a framework generating a web library of such emergent patterns, showing observations vs. model, that stays up to date (as model and data evolve)
 
 ---
 
@@ -199,7 +200,7 @@ image: ./images/Topt2.png
 
 # Current framework
 
-- Microsoft Azure virtual machine (Ubuntu)
+- Microsoft Azure virtual machine (Ubuntu), ~ $88/month
 - NGINX to make it a dynamic web server 
 - Let's Encrypt for https certificate
 - Julia deps: JSServe, WGLMakie, ClimaLSM, (ParamViz)  
